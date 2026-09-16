@@ -1,0 +1,22 @@
+# Local runtime and hosting metadata
+.openai/
+.sites-runtime/
+node_modules/
+*.log
+
+# Reference material retained only for local design work
+reference-greymac.html
+
+# Secrets, local state, and contact exports
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.sqlite
+*.sqlite3
+contacts/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
